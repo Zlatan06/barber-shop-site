@@ -1,0 +1,172 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+ h2 {
+    color: #333;
+}
+main{
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header {
+    background: linear-gradient(to right, #333, #555);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-list a {
+    color: white;
+    transition: color 0.5s;
+}
+
+.nav-list a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    margin-top: 20px;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.section {
+    padding: 70px 0;
+    background-color: white;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.text {
+    flex: 1;
+}
+
+.text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.text p {
+    line-height: 1.6;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+.team_shop{
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+}
+.team_shop1{
+    height:200px;
+    justify-content: center;
+}
+.Products{
+    width: 320px;
+    height:300px;
+}
+.galery{
+    width: 300px;
+    height:250px;
+}
+
+
+.section.photos {
+    padding: 70px 0; 
+    background-color: white; 
+}
+
+.section.location {
+    padding: 70px 0; 
+    background-color: white; 
+    display: flex;
+}
+
+.galery {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px; 
+}
+
+.location iframe {
+    border-radius: 30px; 
+}
+
+.location h3{
+    padding-right:200px;
+    justify-content: flex-start;
+}
+
+.section.location h3 {
+    font-size: 1.5;
+    text-align: center; 
+}
+
